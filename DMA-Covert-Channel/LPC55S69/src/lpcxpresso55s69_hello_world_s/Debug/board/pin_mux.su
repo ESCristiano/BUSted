@@ -1,0 +1,4 @@
+/home/cris/Documents/0_Projects/uarchs_paper/LPC55S69_DMA_Covert_Channel/src/lpcxpresso55s69_hello_world_s/drivers/fsl_clock.h:983:20:CLOCK_EnableClock	24	static
+/home/cris/Documents/0_Projects/uarchs_paper/LPC55S69_DMA_Covert_Channel/src/lpcxpresso55s69_hello_world_s/drivers/fsl_iocon.h:182:22:IOCON_PinMuxSet	24	static
+../board/pin_mux.c:36:6:BOARD_InitBootPins	8	static
+../board/pin_mux.c:62:6:BOARD_InitPins	16	static

@@ -1,0 +1,8 @@
+/home/cris/Documents/0_Projects/uarchs_paper/LPC55S69_DMA_Covert_Channel/src/lpcxpresso55s69_hello_world_ns/drivers/fsl_power.h:398:20:POWER_SetBodVbatLevel	16	static
+/home/cris/Documents/0_Projects/uarchs_paper/LPC55S69_DMA_Covert_Channel/src/lpcxpresso55s69_hello_world_ns/drivers/fsl_dma.h:420:20:DMA_EnableChannel	16	static
+../source/hello_world_ns.c:102:35:trojan	24	static
+../source/hello_world_ns.c:121:12:DMA_Callback	32	static
+../source/hello_world_ns.c:174:6:config_DMA_M2M	32	static
+../source/hello_world_ns.c:211:12:covert_channel	16	static
+../source/hello_world_ns.c:234:6:SystemInit	4	static
+../source/hello_world_ns.c:240:5:main	8	static

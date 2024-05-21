@@ -1,0 +1,7 @@
+/home/cris/Documents/0_Projects/uarchs_paper/LPC55S69_DMA_Covert_Channel/src/lpcxpresso55s69_hello_world_ns/drivers/fsl_power.h:385:20:POWER_DisablePD	16	static
+../board/clock_config.c:43:6:BOARD_InitBootClocks	8	static
+../board/clock_config.c:70:6:BOARD_BootClockFRO12M	8	static
+../board/clock_config.c:118:6:BOARD_BootClockFROHF96M	8	static
+../board/clock_config.c:174:6:BOARD_BootClockPLL100M	40	static
+../board/clock_config.c:250:6:BOARD_BootClockPLL150M	40	static
+../board/clock_config.c:323:6:BOARD_BootClockPLL1_150M	40	static

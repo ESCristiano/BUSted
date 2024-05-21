@@ -1,0 +1,10 @@
+main.c:33:5:__io_putchar	16	static
+main.c:39:5:__io_getchar	16	static
+main.c:125:35:trojan	24	static,ignoring_inline_asm
+main.c:146:6:config_DMA_M2M	16	static
+main.c:158:35:covert_channel	16	static
+main.c:181:35:DMA1_Channel1_IRQHandler	16	static
+main.c:218:6:configure_mpu	24	static
+main.c:262:5:main	8	static
+main.c:308:6:SystemClock_Config	136	static
+main.c:359:6:Error_Handler	8	static,ignoring_inline_asm

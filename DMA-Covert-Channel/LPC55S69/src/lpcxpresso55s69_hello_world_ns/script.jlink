@@ -1,0 +1,7 @@
+ExitOnError 1
+r
+h
+loadfile "/home/daniel/mcuxpresso/workspace/lpcxpresso55s69_hello_world_ns/Debug/lpcxpresso55s69_hello_world_ns.hex" 0x10000 
+qc
+
+qc

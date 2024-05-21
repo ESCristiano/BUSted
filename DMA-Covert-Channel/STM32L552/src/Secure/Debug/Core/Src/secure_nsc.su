@@ -1,0 +1,2 @@
+secure_nsc.c:50:20:SECURE_RegisterCallback	16	static
+secure_nsc.c:114:49:trojan_s	24	static,ignoring_inline_asm

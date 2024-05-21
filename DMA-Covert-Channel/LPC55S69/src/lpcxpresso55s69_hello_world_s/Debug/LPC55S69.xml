@@ -1,0 +1,5 @@
+<directory>
+ <chips chipVendor='NXP' >
+  <chip name='LPC55S69' xml_file='LPC55S69_part.xml' />
+ </chips>
+</directory> 

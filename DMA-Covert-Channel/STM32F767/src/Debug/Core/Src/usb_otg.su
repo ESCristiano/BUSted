@@ -1,0 +1,3 @@
+usb_otg.c:31:6:MX_USB_OTG_FS_PCD_Init	8	static
+usb_otg.c:61:6:HAL_PCD_MspInit	192	static
+usb_otg.c:108:6:HAL_PCD_MspDeInit	16	static

@@ -1,0 +1,5 @@
+"./Results/STM32L073_No_Contention_samples.txt" is recognised as an observation file.
+Estimated capacity: 0.9856 (out of possible  8.000 bits)
+  Between NaN and NaN with 95% confidence
+  With 95% confidence, if leakage (w/o correction) < 0.0229, we may consider no information is leaked.
+There is a leak.

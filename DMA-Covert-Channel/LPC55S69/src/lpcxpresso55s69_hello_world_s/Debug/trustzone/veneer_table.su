@@ -1,0 +1,4 @@
+/usr/local/mcuxpressoide-11.7.1_9221/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.7.1.202301190959/tools/arm-none-eabi/include/string.h:119:9:strnlen	24	static
+../trustzone/veneer_table.c:89:28:DbgConsole_Printf_NSE	24	static
+../trustzone/veneer_table.c:117:32:StringCompare_NSE	48	static
+../trustzone/veneer_table.c:161:57:trojan_s	24	static

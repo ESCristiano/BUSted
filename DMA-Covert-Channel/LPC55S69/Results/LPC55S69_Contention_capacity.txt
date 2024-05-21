@@ -1,0 +1,5 @@
+"./Results/LPC55S69_Contention_samples.txt" is recognised as an observation file.
+Estimated capacity: 6.1693 (out of possible  8.000 bits)
+  Between 6.1693 and 6.1693 with 95% confidence
+  With 95% confidence, if leakage (w/o correction) < 2.6571, we may consider no information is leaked.
+There is a leak.

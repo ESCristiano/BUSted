@@ -1,0 +1,1465 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$/tmp/xcXONIljB/driver_tmp_14.o
+idloc IDLOC 5 200000 200000 40 1 1
+init CODE 0 BA BA 4 1 2
+reset_vec CODE 0 0 0 4 1 2
+config CONFIG 4 300000 300000 A 1 1
+$dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+ivt0x8 CODE 0 8 8 B2 1 2
+cinit CODE 0 2132 2132 56 1 2
+idloc IDLOC 5 200000 200000 40 1 1
+text0 CODE 0 24C4 24C4 1C 1 2
+text1 CODE 0 221C 221C 40 1 2
+text2 CODE 0 1CEC 1CEC AA 1 2
+text3 CODE 0 1F92 1F92 72 1 2
+text4 CODE 0 2458 2458 28 1 2
+text5 CODE 0 2188 2188 50 1 2
+text6 CODE 0 1652 1652 1D8 1 2
+text7 CODE 0 19BE 19BE F0 1 2
+text8 CODE 0 2074 2074 64 1 2
+text9 CODE 0 1F1E 1F1E 74 1 2
+text10 CODE 0 182A 182A 194 1 2
+text11 CODE 0 1EA4 1EA4 7A 1 2
+text12 CODE 0 21D8 21D8 44 1 2
+text13 CODE 0 1AAE 1AAE CA 1 2
+text14 CODE 0 24A6 24A6 1E 1 2
+text15 CODE 0 25FC 25FC 8 1 2
+text16 CODE 0 242E 242E 2A 1 2
+text17 CODE 0 225C 225C 40 1 2
+text18 CODE 0 1C3C 1C3C B0 1 2
+text19 CODE 0 1B78 1B78 C4 1 2
+text20 CODE 0 25B4 25B4 C 1 2
+text21 CODE 0 2604 2604 6 1 2
+text22 CODE 0 25C0 25C0 A 1 2
+text23 CODE 0 2314 2314 34 1 2
+text24 CODE 0 2480 2480 26 1 2
+text25 CODE 0 22DC 22DC 38 1 2
+text26 CODE 0 1E26 1E26 7E 1 2
+text27 CODE 0 24E0 24E0 1C 1 2
+text28 CODE 0 24FC 24FC 1C 1 2
+text29 CODE 0 2518 2518 1C 1 2
+text30 CODE 0 2348 2348 30 1 2
+text31 CODE 0 25CA 25CA A 1 2
+text32 CODE 0 2598 2598 E 1 2
+text33 CODE 0 1D96 1D96 90 1 2
+text34 CODE 0 2004 2004 70 1 2
+text35 CODE 0 25D4 25D4 A 1 2
+text36 CODE 0 25DE 25DE A 1 2
+text37 CODE 0 25E8 25E8 A 1 2
+text38 CODE 0 20D8 20D8 5A 1 2
+text39 CODE 0 25F2 25F2 A 1 2
+text40 CODE 0 2402 2402 2C 1 2
+text41 CODE 0 2534 2534 1C 1 2
+text42 CODE 0 261C 261C 2 1 4
+text43 CODE 0 260C 260C 6 1 4
+text44 CODE 0 261E 261E 2 1 2
+text45 CODE 0 2550 2550 18 1 4
+text46 CODE 0 2378 2378 2E 1 2
+text47 CODE 0 2620 2620 2 1 2
+text48 CODE 0 2568 2568 18 1 4
+text49 CODE 0 23A6 23A6 2E 1 2
+text50 CODE 0 2622 2622 2 1 2
+text51 CODE 0 2580 2580 18 1 4
+text52 CODE 0 23D4 23D4 2E 1 2
+text53 CODE 0 2624 2624 2 1 2
+text54 CODE 0 229C 229C 40 1 4
+text55 CODE 0 2626 2626 2 1 2
+text56 CODE 0 25A6 25A6 E 1 2
+text57 CODE 0 2612 2612 6 1 2
+nvBANK5 BANK5 1 5A2 5A2 4 1 1
+idataCOMRAM CODE 0 2628 2628 1 1 1
+cstackCOMRAM COMRAM 1 501 501 48 1 1
+cstackBANK5 BANK5 1 59A 59A 8 1 1
+bssBANK5 BANK5 1 560 560 3A 1 1
+smallconst SMALLCONST 0 1600 1600 52 1 2
+idataBANK5 CODE 0 2618 2618 2 1 1
+dataBANK5 BANK5 1 5A6 5A6 2 1 1
+dataCOMRAM COMRAM 1 556 556 1 1 1
+bssCOMRAM COMRAM 1 549 549 D 1 1
+config CONFIG 4 300000 300000 A 1 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 5A8-14FF 1
+SFR 0-4FF 1
+SFR 1500-15FF 1
+BANK5 5A8-5FF 1
+BANK6 600-6FF 1
+BANK7 700-7FF 1
+BANK8 800-8FF 1
+BANK9 900-9FF 1
+CONST 4-7 1
+CONST BE-15FF 1
+CONST 260A-260B 1
+CONST 261A-261B 1
+CONST 2629-FFFF 1
+SMALLCONST 260A-260B 1
+SMALLCONST 261A-261B 1
+SMALLCONST 2629-FFFF 1
+CODE 4-7 1
+CODE BE-15FF 1
+CODE 260A-260B 1
+CODE 261A-261B 1
+CODE 2629-FFFF 1
+BANK10 A00-AFF 1
+BANK11 B00-BFF 1
+BANK12 C00-CFF 1
+BANK13 D00-DFF 1
+BANK14 E00-EFF 1
+BANK15 F00-FFF 1
+BANK16 1000-10FF 1
+BANK17 1100-11FF 1
+BANK18 1200-12FF 1
+BANK19 1300-13FF 1
+BANK20 1400-14FF 1
+BIGRAM 557-55F 1
+BIGRAM 5A8-14FF 1
+BIGSFR 0-4FF 1
+BIGSFR 1500-15FF 1
+COMRAM 557-55F 1
+CONFIG 30000A-300011 1
+EEDATA 380000-3801FF 1
+MEDIUMCONST 260A-260B 1
+MEDIUMCONST 261A-261B 1
+MEDIUMCONST 2629-FFFF 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+2612 text57 CODE >79:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/timer/src/tmr0.c
+2612 text57 CODE >81:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/timer/src/tmr0.c
+2616 text57 CODE >82:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/timer/src/tmr0.c
+25A6 text56 CODE >142:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+25A6 text56 CODE >143:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+25AA text56 CODE >144:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+25B2 text56 CODE >146:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+2626 text55 CODE >188:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+2626 text55 CODE >191:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+229C text54 CODE >174:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+229C text54 CODE >201:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+22A4 text54 CODE >177:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+22A6 text54 CODE >179:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+22BA text54 CODE >180:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+22D2 text54 CODE >181:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+2624 text53 CODE >198:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2624 text53 CODE >201:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+23D4 text52 CODE >185:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+23D4 text52 CODE >188:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+23E8 text52 CODE >190:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2400 text52 CODE >192:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2580 text51 CODE >167:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2580 text51 CODE >176:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2588 text51 CODE >178:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+258A text51 CODE >181:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+258E text51 CODE >182:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2622 text50 CODE >164:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2622 text50 CODE >167:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+23A6 text49 CODE >151:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+23A6 text49 CODE >154:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+23BA text49 CODE >156:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+23D2 text49 CODE >158:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2568 text48 CODE >133:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2568 text48 CODE >142:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2570 text48 CODE >144:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2572 text48 CODE >147:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2576 text48 CODE >148:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2620 text47 CODE >130:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2620 text47 CODE >133:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2378 text46 CODE >117:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2378 text46 CODE >120:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+238C text46 CODE >122:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+23A4 text46 CODE >124:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2550 text45 CODE >108:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2550 text45 CODE >118:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+2558 text45 CODE >110:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+255A text45 CODE >113:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+255E text45 CODE >114:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+261E text44 CODE >116:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+261E text44 CODE >118:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+260C text43 CODE >93:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+260C text43 CODE >95:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+260C text43 CODE >97:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2610 text43 CODE >98:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+261C text42 CODE >53:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/clock.c
+261C text42 CODE >91:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+261C text42 CODE >93:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2534 text41 CODE >37:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/clock.c
+2534 text41 CODE >41:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/clock.c
+253A text41 CODE >43:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/clock.c
+253E text41 CODE >45:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/clock.c
+2542 text41 CODE >47:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/clock.c
+2546 text41 CODE >49:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/clock.c
+254A text41 CODE >51:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/clock.c
+254E text41 CODE >53:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/clock.c
+2402 text40 CODE >58:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+2402 text40 CODE >61:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+2408 text40 CODE >63:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+240C text40 CODE >65:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+2410 text40 CODE >67:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+2414 text40 CODE >69:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+2418 text40 CODE >71:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+241C text40 CODE >73:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+2420 text40 CODE >75:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+2424 text40 CODE >77:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+2428 text40 CODE >79:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+242C text40 CODE >80:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+25F2 text39 CODE >183:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+25F2 text39 CODE >185:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+25FA text39 CODE >186:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+20D8 text38 CODE >46:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+20D8 text38 CODE >50:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+20DE text38 CODE >52:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+20EA text38 CODE >54:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+20F2 text38 CODE >56:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+20F6 text38 CODE >58:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+20FE text38 CODE >60:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+2106 text38 CODE >62:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+210A text38 CODE >64:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+210E text38 CODE >67:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+2110 text38 CODE >69:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+2112 text38 CODE >71:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+2114 text38 CODE >73:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+2116 text38 CODE >75:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+2118 text38 CODE >76:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+211A text38 CODE >77:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+2126 text38 CODE >78:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+2128 text38 CODE >79:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+212A text38 CODE >82:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+2130 text38 CODE >84:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+25E8 text37 CODE >126:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+25E8 text37 CODE >127:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+25F0 text37 CODE >128:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+25DE text36 CODE >160:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+25DE text36 CODE >161:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+25E6 text36 CODE >162:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+25D4 text35 CODE >194:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+25D4 text35 CODE >195:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+25DC text35 CODE >196:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2004 text34 CODE >42:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2004 text34 CODE >44:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2006 text34 CODE >46:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+200E text34 CODE >47:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2010 text34 CODE >48:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2016 text34 CODE >49:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+201A text34 CODE >50:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+201C text34 CODE >52:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2020 text34 CODE >53:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2024 text34 CODE >54:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2028 text34 CODE >56:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+202C text34 CODE >57:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2030 text34 CODE >58:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2032 text34 CODE >60:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+203C text34 CODE >62:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2040 text34 CODE >63:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2042 text34 CODE >67:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2044 text34 CODE >68:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2046 text34 CODE >70:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2052 text34 CODE >75:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2054 text34 CODE >76:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2056 text34 CODE >78:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2062 text34 CODE >83:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2064 text34 CODE >84:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2066 text34 CODE >86:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+2072 text34 CODE >89:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/interrupt.c
+1D96 text33 CODE >38:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1D96 text33 CODE >43:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1D9A text33 CODE >44:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1D9E text33 CODE >45:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1DA2 text33 CODE >50:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1DA6 text33 CODE >51:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1DAA text33 CODE >52:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1DAE text33 CODE >57:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1DB4 text33 CODE >58:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1DB8 text33 CODE >59:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1DBC text33 CODE >64:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1DC0 text33 CODE >65:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1DC4 text33 CODE >66:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1DC8 text33 CODE >71:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1DCE text33 CODE >72:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1DD2 text33 CODE >77:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1DD8 text33 CODE >78:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1DDC text33 CODE >79:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1DE0 text33 CODE >84:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1DE4 text33 CODE >85:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1DE8 text33 CODE >86:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1DEA text33 CODE >91:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1DEE text33 CODE >92:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1DF2 text33 CODE >93:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1DF4 text33 CODE >97:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1DFA text33 CODE >98:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1DFE text33 CODE >103:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1E04 text33 CODE >104:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1E08 text33 CODE >105:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1E0C text33 CODE >106:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1E10 text33 CODE >107:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1E14 text33 CODE >108:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1E18 text33 CODE >109:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1E1C text33 CODE >110:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1E20 text33 CODE >111:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+1E24 text33 CODE >114:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/pins.c
+2598 text32 CODE >83:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+2598 text32 CODE >86:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+259E text32 CODE >87:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+25A2 text32 CODE >88:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+25A4 text32 CODE >89:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+25CA text31 CODE >115:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/timer/src/tmr0.c
+25CA text31 CODE >117:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/timer/src/tmr0.c
+25D2 text31 CODE >118:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/timer/src/tmr0.c
+2348 text30 CODE >50:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/timer/src/tmr0.c
+2348 text30 CODE >53:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/timer/src/tmr0.c
+234E text30 CODE >56:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/timer/src/tmr0.c
+2352 text30 CODE >59:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/timer/src/tmr0.c
+2356 text30 CODE >62:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/timer/src/tmr0.c
+2362 text30 CODE >65:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/timer/src/tmr0.c
+236E text30 CODE >68:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/timer/src/tmr0.c
+2370 text30 CODE >71:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/timer/src/tmr0.c
+2376 text30 CODE >72:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/timer/src/tmr0.c
+2518 text29 CODE >324:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+2518 text29 CODE >326:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+252A text29 CODE >328:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+2532 text29 CODE >330:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+24FC text28 CODE >332:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+24FC text28 CODE >334:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+250E text28 CODE >336:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+2516 text28 CODE >338:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+24E0 text27 CODE >340:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+24E0 text27 CODE >342:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+24F2 text27 CODE >344:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+24FA text27 CODE >346:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1E26 text26 CODE >95:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1E26 text26 CODE >101:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1E2C text26 CODE >103:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1E30 text26 CODE >105:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1E34 text26 CODE >107:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1E38 text26 CODE >109:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1E3C text26 CODE >111:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1E40 text26 CODE >113:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1E44 text26 CODE >115:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1E48 text26 CODE >117:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1E4C text26 CODE >119:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1E50 text26 CODE >121:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1E54 text26 CODE >123:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1E58 text26 CODE >125:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1E5C text26 CODE >127:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1E60 text26 CODE >129:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1E64 text26 CODE >131:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1E68 text26 CODE >133:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1E6C text26 CODE >135:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1E70 text26 CODE >137:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1E74 text26 CODE >139:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1E80 text26 CODE >140:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1E8C text26 CODE >141:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1E98 text26 CODE >143:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1EA2 text26 CODE >144:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+22DC text25 CODE >26:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/peripheral/src/uart2.c
+22DC text25 CODE >28:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/peripheral/src/uart2.c
+22E2 text25 CODE >30:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/peripheral/src/uart2.c
+22E6 text25 CODE >32:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/peripheral/src/uart2.c
+22EA text25 CODE >34:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/peripheral/src/uart2.c
+22EE text25 CODE >36:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/peripheral/src/uart2.c
+22F2 text25 CODE >38:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/peripheral/src/uart2.c
+22F6 text25 CODE >40:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/peripheral/src/uart2.c
+22FA text25 CODE >42:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/peripheral/src/uart2.c
+22FE text25 CODE >44:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/peripheral/src/uart2.c
+2302 text25 CODE >46:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/peripheral/src/uart2.c
+2306 text25 CODE >48:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/peripheral/src/uart2.c
+230A text25 CODE >50:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/peripheral/src/uart2.c
+230E text25 CODE >52:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/peripheral/src/uart2.c
+2312 text25 CODE >53:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/peripheral/src/uart2.c
+2480 text24 CODE >45:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+2480 text24 CODE >47:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+2484 text24 CODE >48:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+2488 text24 CODE >49:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+248C text24 CODE >50:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+2490 text24 CODE >51:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+2494 text24 CODE >52:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+2498 text24 CODE >53:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+249C text24 CODE >54:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+24A0 text24 CODE >55:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+24A4 text24 CODE >56:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/system/src/system.c
+2314 text23 CODE >123:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+2314 text23 CODE >126:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+231A text23 CODE >127:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+231E text23 CODE >128:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+232A text23 CODE >129:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+2332 text23 CODE >130:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+233A text23 CODE >131:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+2342 text23 CODE >132:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+2346 text23 CODE >133:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+25C0 text22 CODE >144:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+25C0 text22 CODE >146:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+25C6 text22 CODE >147:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+25C8 text22 CODE >148:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/dma/src/dma1.c
+2604 text21 CODE >74:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/timer/src/tmr0.c
+2604 text21 CODE >76:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/timer/src/tmr0.c
+2608 text21 CODE >77:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/timer/src/tmr0.c
+25B4 text20 CODE >97:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/timer/src/tmr0.c
+25B4 text20 CODE >99:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/timer/src/tmr0.c
+25BA text20 CODE >100:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/timer/src/tmr0.c
+25BE text20 CODE >101:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/timer/src/tmr0.c
+1B78 text19 CODE >7:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+1B78 text19 CODE >13:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+1B7C text19 CODE >14:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+1B8A text19 CODE >15:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+1B92 text19 CODE >16:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+1B96 text19 CODE >18:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+1BA4 text19 CODE >19:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+1BAC text19 CODE >20:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+1BB0 text19 CODE >22:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+1BB8 text19 CODE >23:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+1BCA text19 CODE >24:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+1BCE text19 CODE >25:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+1BD2 text19 CODE >26:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+1BD8 text19 CODE >27:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+1BDA text19 CODE >25:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+1BE8 text19 CODE >30:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+1BEE text19 CODE >31:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+1C04 text19 CODE >32:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+1C0C text19 CODE >33:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+1C0E text19 CODE >35:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+1C14 text19 CODE >36:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+1C1A text19 CODE >38:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+1C2A text19 CODE >39:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+1C32 text19 CODE >40:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+1C3A text19 CODE >41:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awdiv.c
+1C3C text18 CODE >7:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awmod.c
+1C3C text18 CODE >12:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awmod.c
+1C40 text18 CODE >13:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awmod.c
+1C4E text18 CODE >14:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awmod.c
+1C56 text18 CODE >15:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awmod.c
+1C5A text18 CODE >17:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awmod.c
+1C68 text18 CODE >18:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awmod.c
+1C70 text18 CODE >19:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awmod.c
+1C82 text18 CODE >20:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awmod.c
+1C86 text18 CODE >21:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awmod.c
+1C8A text18 CODE >22:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awmod.c
+1C90 text18 CODE >23:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awmod.c
+1C92 text18 CODE >21:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awmod.c
+1CA0 text18 CODE >26:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awmod.c
+1CB6 text18 CODE >27:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awmod.c
+1CBE text18 CODE >28:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awmod.c
+1CC4 text18 CODE >29:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awmod.c
+1CCA text18 CODE >31:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awmod.c
+1CDA text18 CODE >32:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awmod.c
+1CE2 text18 CODE >33:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awmod.c
+1CEA text18 CODE >34:/opt/microchip/xc8/v2.41/pic/sources/c99/common/awmod.c
+225C text17 CODE >1:/opt/microchip/xc8/v2.41/pic/sources/c99/common/abs.c
+225C text17 CODE >3:/opt/microchip/xc8/v2.41/pic/sources/c99/common/abs.c
+229A text17 CODE >4:/opt/microchip/xc8/v2.41/pic/sources/c99/common/abs.c
+242E text16 CODE >247:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+242E text16 CODE >249:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+2456 text16 CODE >250:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+25FC text15 CODE >287:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+25FE text15 CODE >289:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+2602 text15 CODE >290:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+24A6 text14 CODE >299:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+24A8 text14 CODE >301:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+24BC text14 CODE >302:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+24C2 text14 CODE >303:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/mcc_generated_files/uart/src/uart1.c
+1AAE text13 CODE >8:/opt/microchip/xc8/v2.41/pic/sources/c99/common/nf_fputc.c
+1AAE text13 CODE >12:/opt/microchip/xc8/v2.41/pic/sources/c99/common/nf_fputc.c
+1AD2 text13 CODE >13:/opt/microchip/xc8/v2.41/pic/sources/c99/common/nf_fputc.c
+1AD8 text13 CODE >14:/opt/microchip/xc8/v2.41/pic/sources/c99/common/nf_fputc.c
+1ADC text13 CODE >15:/opt/microchip/xc8/v2.41/pic/sources/c99/common/nf_fputc.c
+1B30 text13 CODE >18:/opt/microchip/xc8/v2.41/pic/sources/c99/common/nf_fputc.c
+1B64 text13 CODE >20:/opt/microchip/xc8/v2.41/pic/sources/c99/common/nf_fputc.c
+1B76 text13 CODE >24:/opt/microchip/xc8/v2.41/pic/sources/c99/common/nf_fputc.c
+21D8 text12 CODE >8:/opt/microchip/xc8/v2.41/pic/sources/c99/common/nf_fputs.c
+21D8 text12 CODE >13:/opt/microchip/xc8/v2.41/pic/sources/c99/common/nf_fputs.c
+21E0 text12 CODE >14:/opt/microchip/xc8/v2.41/pic/sources/c99/common/nf_fputs.c
+21E4 text12 CODE >15:/opt/microchip/xc8/v2.41/pic/sources/c99/common/nf_fputs.c
+21F6 text12 CODE >16:/opt/microchip/xc8/v2.41/pic/sources/c99/common/nf_fputs.c
+21FA text12 CODE >14:/opt/microchip/xc8/v2.41/pic/sources/c99/common/nf_fputs.c
+221A text12 CODE >19:/opt/microchip/xc8/v2.41/pic/sources/c99/common/nf_fputs.c
+1EA4 text11 CODE >152:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1EA4 text11 CODE >164:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1EC6 text11 CODE >165:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1ECE text11 CODE >166:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1ED2 text11 CODE >167:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1EE6 text11 CODE >168:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1EEA text11 CODE >166:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1F08 text11 CODE >175:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1F1C text11 CODE >183:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+182A text10 CODE >470:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+182A text10 CODE >476:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+183E text10 CODE >477:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+184E text10 CODE >478:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1856 text10 CODE >487:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1878 text10 CODE >488:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1880 text10 CODE >489:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1890 text10 CODE >494:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1896 text10 CODE >495:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+18BE text10 CODE >496:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+18BE text10 CODE >505:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+18C6 text10 CODE >506:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+18CC text10 CODE >507:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+18D0 text10 CODE >512:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+18D6 text10 CODE >513:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1908 text10 CODE >514:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+190E text10 CODE >515:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1914 text10 CODE >516:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1930 text10 CODE >507:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1976 text10 CODE >520:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1986 text10 CODE >521:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+198C text10 CODE >522:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+199C text10 CODE >526:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+19BC text10 CODE >527:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1F1E text9 CODE >7:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwdiv.c
+1F1E text9 CODE >13:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwdiv.c
+1F26 text9 CODE >14:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwdiv.c
+1F38 text9 CODE >15:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwdiv.c
+1F3C text9 CODE >16:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwdiv.c
+1F40 text9 CODE >17:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwdiv.c
+1F46 text9 CODE >18:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwdiv.c
+1F48 text9 CODE >16:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwdiv.c
+1F56 text9 CODE >21:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwdiv.c
+1F5C text9 CODE >22:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwdiv.c
+1F72 text9 CODE >23:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwdiv.c
+1F7A text9 CODE >24:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwdiv.c
+1F7C text9 CODE >26:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwdiv.c
+1F82 text9 CODE >27:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwdiv.c
+1F88 text9 CODE >28:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwdiv.c
+1F88 text9 CODE >29:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwdiv.c
+1F90 text9 CODE >30:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwdiv.c
+2074 text8 CODE >7:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwmod.c
+2074 text8 CODE >12:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwmod.c
+2086 text8 CODE >13:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwmod.c
+208A text8 CODE >14:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwmod.c
+208E text8 CODE >15:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwmod.c
+2094 text8 CODE >16:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwmod.c
+2096 text8 CODE >14:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwmod.c
+20A4 text8 CODE >19:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwmod.c
+20BA text8 CODE >20:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwmod.c
+20C2 text8 CODE >21:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwmod.c
+20C8 text8 CODE >22:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwmod.c
+20CE text8 CODE >23:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwmod.c
+20CE text8 CODE >24:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwmod.c
+20D6 text8 CODE >25:/opt/microchip/xc8/v2.41/pic/sources/c99/common/lwmod.c
+19BE text7 CODE >917:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+19BE text7 CODE >927:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+19E0 text7 CODE >928:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+19E8 text7 CODE >931:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+19F0 text7 CODE >932:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+19F6 text7 CODE >933:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+19FA text7 CODE >938:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1A00 text7 CODE >939:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1A26 text7 CODE >940:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1A2C text7 CODE >941:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1A32 text7 CODE >942:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1A4E text7 CODE >933:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1A8C text7 CODE >946:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1AAC text7 CODE >947:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1652 text6 CODE >1048:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1652 text6 CODE >1062:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1678 text6 CODE >1063:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1686 text6 CODE >1065:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1694 text6 CODE >1066:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1698 text6 CODE >1143:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+16A8 text6 CODE >1213:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+16E4 text6 CODE >1256:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+170C text6 CODE >1258:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1728 text6 CODE >1259:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1740 text6 CODE >1265:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+175E text6 CODE >1321:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1786 text6 CODE >1323:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+17A2 text6 CODE >1324:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+17A6 text6 CODE >1331:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+17BE text6 CODE >1342:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+17D4 text6 CODE >1342:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+17E2 text6 CODE >1342:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+17EC text6 CODE >1535:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+17FE text6 CODE >1540:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+1828 text6 CODE >1543:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+2188 text5 CODE >1546:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+2188 text5 CODE >1551:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+2190 text5 CODE >1555:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+2194 text5 CODE >1559:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+21B0 text5 CODE >1555:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+21CE text5 CODE >1564:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+21D6 text5 CODE >1569:/opt/microchip/xc8/v2.41/pic/sources/c99/common/doprnt.c
+2458 text4 CODE >5:/opt/microchip/xc8/v2.41/pic/sources/c99/common/printf.c
+2458 text4 CODE >9:/opt/microchip/xc8/v2.41/pic/sources/c99/common/printf.c
+2462 text4 CODE >10:/opt/microchip/xc8/v2.41/pic/sources/c99/common/printf.c
+247E text4 CODE >13:/opt/microchip/xc8/v2.41/pic/sources/c99/common/printf.c
+1F92 text3 CODE >103:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+1F92 text3 CODE >105:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+1F9A text3 CODE >106:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+1FB0 text3 CODE >110:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+1FC4 text3 CODE >114:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+1FDA text3 CODE >115:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+1FEE text3 CODE >117:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+2002 text3 CODE >118:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+1CEC text2 CODE >148:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+1CEC text2 CODE >150:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+1CFC text2 CODE >151:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+1D1A text2 CODE >152:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+1D1E text2 CODE >154:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+1D22 text2 CODE >156:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+1D3E text2 CODE >157:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+1D58 text2 CODE >158:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+1D5C text2 CODE >159:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+1D64 text2 CODE >160:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+1D68 text2 CODE >162:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+1D74 text2 CODE >167:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+1D80 text2 CODE >168:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+1D84 text2 CODE >170:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+1D88 text2 CODE >174:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+1D94 text2 CODE >176:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+221C text1 CODE >178:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+221C text1 CODE >179:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+2228 text1 CODE >181:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+2234 text1 CODE >183:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+2238 text1 CODE >185:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+224A text1 CODE >186:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+2252 text1 CODE >187:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+24C4 text0 CODE >192:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+24C4 text0 CODE >194:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+24C8 text0 CODE >195:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+24CA text0 CODE >196:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+24D8 text0 CODE >197:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+24DC text0 CODE >198:/home/cris/Documents/0_Projects/uarchs_paper/PIC18_DMA_Covert_Channel.X/main.c
+2132 cinit CODE >12859:/tmp/xcXONIljB/driver_tmp_1.s
+2132 cinit CODE >12861:/tmp/xcXONIljB/driver_tmp_1.s
+2132 cinit CODE >12864:/tmp/xcXONIljB/driver_tmp_1.s
+2132 cinit CODE >12955:/tmp/xcXONIljB/driver_tmp_1.s
+2134 cinit CODE >12956:/tmp/xcXONIljB/driver_tmp_1.s
+2136 cinit CODE >12957:/tmp/xcXONIljB/driver_tmp_1.s
+2138 cinit CODE >12958:/tmp/xcXONIljB/driver_tmp_1.s
+213A cinit CODE >12959:/tmp/xcXONIljB/driver_tmp_1.s
+213C cinit CODE >12960:/tmp/xcXONIljB/driver_tmp_1.s
+213E cinit CODE >12961:/tmp/xcXONIljB/driver_tmp_1.s
+2140 cinit CODE >12962:/tmp/xcXONIljB/driver_tmp_1.s
+2144 cinit CODE >12963:/tmp/xcXONIljB/driver_tmp_1.s
+2146 cinit CODE >12964:/tmp/xcXONIljB/driver_tmp_1.s
+214A cinit CODE >12968:/tmp/xcXONIljB/driver_tmp_1.s
+214C cinit CODE >12969:/tmp/xcXONIljB/driver_tmp_1.s
+214E cinit CODE >12970:/tmp/xcXONIljB/driver_tmp_1.s
+2150 cinit CODE >12971:/tmp/xcXONIljB/driver_tmp_1.s
+2152 cinit CODE >12972:/tmp/xcXONIljB/driver_tmp_1.s
+2154 cinit CODE >12973:/tmp/xcXONIljB/driver_tmp_1.s
+2156 cinit CODE >12974:/tmp/xcXONIljB/driver_tmp_1.s
+2158 cinit CODE >12975:/tmp/xcXONIljB/driver_tmp_1.s
+215C cinit CODE >12979:/tmp/xcXONIljB/driver_tmp_1.s
+2160 cinit CODE >12980:/tmp/xcXONIljB/driver_tmp_1.s
+2162 cinit CODE >12981:/tmp/xcXONIljB/driver_tmp_1.s
+2162 cinit CODE >12982:/tmp/xcXONIljB/driver_tmp_1.s
+2164 cinit CODE >12983:/tmp/xcXONIljB/driver_tmp_1.s
+2166 cinit CODE >12984:/tmp/xcXONIljB/driver_tmp_1.s
+2168 cinit CODE >12987:/tmp/xcXONIljB/driver_tmp_1.s
+216C cinit CODE >12988:/tmp/xcXONIljB/driver_tmp_1.s
+216E cinit CODE >12989:/tmp/xcXONIljB/driver_tmp_1.s
+216E cinit CODE >12990:/tmp/xcXONIljB/driver_tmp_1.s
+2170 cinit CODE >12991:/tmp/xcXONIljB/driver_tmp_1.s
+2172 cinit CODE >12992:/tmp/xcXONIljB/driver_tmp_1.s
+2174 cinit CODE >13000:/tmp/xcXONIljB/driver_tmp_1.s
+2176 cinit CODE >13001:/tmp/xcXONIljB/driver_tmp_1.s
+2178 cinit CODE >13002:/tmp/xcXONIljB/driver_tmp_1.s
+217A cinit CODE >13003:/tmp/xcXONIljB/driver_tmp_1.s
+217C cinit CODE >13004:/tmp/xcXONIljB/driver_tmp_1.s
+217E cinit CODE >13005:/tmp/xcXONIljB/driver_tmp_1.s
+2180 cinit CODE >13006:/tmp/xcXONIljB/driver_tmp_1.s
+2182 cinit CODE >13012:/tmp/xcXONIljB/driver_tmp_1.s
+2182 cinit CODE >13014:/tmp/xcXONIljB/driver_tmp_1.s
+2184 cinit CODE >13015:/tmp/xcXONIljB/driver_tmp_1.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___awdiv@counter 50D 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+___lwmod@counter 50D 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__LdataBANK5 0 0 ABS 0 dataBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_UART1_TransmitEnable 0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_Timer0_Start 260A 0 CODE 0 text21 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_Timer0_Write 25C0 0 CODE 0 text20 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hspace_0 2629 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hspace_1 5A8 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hspace_2 0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hspace_4 60000A 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__HidataBANK5 0 0 ABS 0 idataBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+Timer0_OverflowCallbackRegister@CallbackHandler 509 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_INT1_DefaultInterruptHandler 2624 0 CODE 0 text50 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst /tmp/xcXONIljB/driver_tmp_14.o
+_INT0_DefaultInterruptHandler 2620 0 CODE 0 text47 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+DMA1_SetSCNTIInterruptHandler@InterruptHandler 509 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_DMASELECT E8 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_INTERRUPT_Initialize 2074 0 CODE 0 text34 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_PIN_MANAGER_IOC 2620 0 CODE 0 text44 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__L__absolute__ 0 0 ABS 0 __absolute__ dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+?_abs 50F 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_config_DMA_M2M 2314 0 CODE 0 text23 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+?_vfprintf 541 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lsmallconst 1600 0 SMALLCONST 0 smallconst dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_LATA 4BE 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_LATB 4BF 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_LATC 4C0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_WPUA 401 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_WPUB 409 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_WPUC 411 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+___sp 0 0 STACK 2 stack /tmp/xcXONIljB/driver_tmp_14.o
+_dbuf 576 0 BANK5 1 bssBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_dtoa 182A 0 CODE 0 text10 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_main 24C4 0 CODE 0 text0 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_prec 549 0 COMRAM 1 bssCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_sync 54F 0 COMRAM 1 bssCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_utoa 19BE 0 CODE 0 text7 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_Default_ISR 261E 0 CODE 0 text42 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+abs@a 50F 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+pad@i 522 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+pad@p 51F 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+pad@w 524 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+start BA 0 CODE 0 init /tmp/xcXONIljB/driver_tmp_14.o
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+INT2_SetInterruptHandler@InterruptHandler 509 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+pad@fp 51B 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_INT2_SetInterruptHandler 25D4 0 CODE 0 text35 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_UART1_OverrunErrorCallbackRegister 24FC 0 CODE 0 text28 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__LidataBANK5 0 0 ABS 0 idataBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hpowerup 0 0 CODE 0 powerup dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_vfpfcnvrt 182A 0 CODE 0 text6 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+___awmod@sign 50E 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_Timer0 163D 0 SMALLCONST 0 smallconst dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+utoa@d 528 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+utoa@i 52E 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+utoa@p 52C 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+utoa@w 52A 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__accesstop 560 0 ABS 0 - /tmp/xcXONIljB/driver_tmp_14.o
+intlevel0 0 0 CODE 0 text /tmp/xcXONIljB/driver_tmp_14.o
+intlevel1 0 0 CODE 0 text /tmp/xcXONIljB/driver_tmp_14.o
+intlevel2 0 0 CODE 0 text /tmp/xcXONIljB/driver_tmp_14.o
+intlevel3 0 0 CODE 0 text /tmp/xcXONIljB/driver_tmp_14.o
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_PIN_MANAGER_IOC 261E 0 CODE 0 text44 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hifardata 0 0 CODE 0 ifardata dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_UART1_IsRxReady 0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+___awdiv@sign 50E 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hclrtext 0 0 ABS 0 clrtext dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_vfpfcnvrt 1652 0 CODE 0 text6 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_config_DMA_M2M 2348 0 CODE 0 text23 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+dtoa@fp 526 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_DMA1_SetSCNTIInterruptHandler 25F2 0 CODE 0 text39 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__pidataCOMRAM 2628 0 CODE 0 idataCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_INT1_SetInterruptHandler 25E8 0 CODE 0 text36 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U1ERRIE 2B3 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U1ERRIR 2B2 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+ivt0x8_base 8 0 CODE 0 ivt0x8 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U1RXCHK 2A2 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U1RXPPS 272 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U1TXCHK 2A4 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_IVTBASEH 45E 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_IVTBASEL 45D 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_IVTBASEU 45F 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U2ERRIE 2C6 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U2ERRIR 2C5 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_ACTCON AC 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_ANSELA 400 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_ANSELB 408 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_ANSELC 410 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+___awdiv@dividend 509 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+___inthi_sp 0 0 STACK 2 stack /tmp/xcXONIljB/driver_tmp_14.o
+___intlo_sp 0 0 STACK 2 stack /tmp/xcXONIljB/driver_tmp_14.o
+_UART1_IsTxDone 0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_UART1_ParityErrorCallbackRegister 24E0 0 CODE 0 text27 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_CPU_Initialize 2402 0 CODE 0 text40 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_UART1_FramingErrorCallbackRegister 2518 0 CODE 0 text29 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_DMA1PR B6 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_DMA2PR B7 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_DMA3PR B8 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_DMA4PR B9 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+UART1_FramingErrorCallbackRegister@callbackHandler 509 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_covert_channel_logic 1D96 0 CODE 0 text2 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_UART1_AutoBaudQuery 0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+config_DMA_M2M@size 509 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_DMA1_StartTransfer 25CA 0 CODE 0 text22 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+?_printf 59A 0 BANK5 1 cstackBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_Timer0_OverflowCallback 5A4 0 BANK5 1 nvBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__LnvBANK5 0 0 ABS 0 nvBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+___awdiv@divisor 50B 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+___lwmod@divisor 50B 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of___awdiv 1C3C 0 CODE 0 text19 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of___awmod 1CEC 0 CODE 0 text18 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of___lwdiv 1F92 0 CODE 0 text9 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of___lwmod 20D8 0 CODE 0 text8 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U1FIFObits 2B0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_INLVLA 404 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_INLVLB 40C 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_INLVLC 414 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_UART1_Write 25FC 0 CODE 0 text15 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+utoa@fp 526 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+___lwdiv@quotient 50E 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__LidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_MAINPR BE 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_INTCON0bits 4D6 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+___lwmod@dividend 509 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_PIN_MANAGER_Initialize 1D96 0 CODE 0 text33 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+start_initialization 2132 0 CODE 0 cinit dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_DMA1_SCNTI_InterruptHandler 5A2 0 BANK5 1 nvBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_ODCONA 402 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_ODCONB 40A 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_ODCONC 412 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_OSCFRQ B1 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_DMA_ISR 25A6 0 CODE 0 text56 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_DMAnDSA F0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_DMAnDSZ EE 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_DMAnSSA F9 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_DMAnSSZ F7 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_UART1_OverrunErrorCallbackRegister 2518 0 CODE 0 text28 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_UART1_Initialize 1E26 0 CODE 0 text26 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_DMA1_StartTransfer 25C0 0 CODE 0 text22 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_DMA1_Initialize 2132 0 CODE 0 text38 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_PRLOCK B4 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_CPU_Initialize 242E 0 CODE 0 text40 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_SystemArbiter_Initialize 2598 0 CODE 0 text32 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_INT0_CallBack 2378 0 CODE 0 text46 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_INT0_DefaultInterruptHandler 2622 0 CODE 0 text47 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+___rparam_used 1 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_RB4I2C 287 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_RB6I2C 286 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_RB7PPS 210 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+trojan@input_symbol 509 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_SYSTEM_Initialize 24A6 0 CODE 0 text24 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_SCANPR B5 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_INT1_CallBack 23A6 0 CODE 0 text49 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__pcstackBANK5 59A 0 BANK5 1 cstackBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_T0CON0 31A 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_T0CON1 31B 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_IPR0bits 367 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U1CON0bits 2AB 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U1CON1bits 2AC 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_IPR2bits 369 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U1BRGH 2AF 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U1BRGL 2AE 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U1CON0 2AB 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U1CON1 2AC 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U1CON2 2AD 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U1FIFO 2B0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U2BRGH 2C2 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U2BRGL 2C1 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U2CON0 2BE 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U2CON1 2BF 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U2CON2 2C0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U2FIFO 2C3 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_UART1_AutoBaudSet 0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_INT2_CallBack 23D4 0 CODE 0 text52 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_INT2_DefaultInterruptHandler 2624 0 CODE 0 text53 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_Timer0 1631 0 SMALLCONST 0 smallconst dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_printf 2480 0 CODE 0 text4 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+isa$xinst 0 0 ABS 0 - /tmp/xcXONIljB/driver_tmp_14.o
+_DMAnCON0bits FC 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_DMAnCON1bits FD 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+fputc@fp 50D 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+fputs@fp 516 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_Timer0_OverflowCallbackRegister 25D4 0 CODE 0 text31 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hbank5 0 0 ABS 0 bank5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hbank6 0 0 ABS 0 bank6 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hbank7 0 0 ABS 0 bank7 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hbank8 0 0 ABS 0 bank8 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hbank9 0 0 ABS 0 bank9 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hcinit 0 0 ABS 0 cinit dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hconst 0 0 CONST 0 const dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hidata 0 0 CODE 0 idata dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hidloc 200040 0 IDLOC 5 idloc dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hparam 0 0 COMRAM 1 rparam dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hrdata 0 0 COMRAM 1 rdata dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hstack 0 0 STACK 2 stack dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext0 0 0 ABS 0 text0 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext1 0 0 ABS 0 text1 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext2 0 0 ABS 0 text2 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext3 0 0 ABS 0 text3 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext4 0 0 ABS 0 text4 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext5 0 0 ABS 0 text5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext6 0 0 ABS 0 text6 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext7 0 0 ABS 0 text7 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext8 0 0 ABS 0 text8 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext9 0 0 ABS 0 text9 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+___lwdiv@counter 50D 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_trojan 2004 0 CODE 0 text3 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hbank10 0 0 ABS 0 bank10 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hbank11 0 0 ABS 0 bank11 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hbank12 0 0 ABS 0 bank12 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hbank13 0 0 ABS 0 bank13 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hbank14 0 0 ABS 0 bank14 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hbank15 0 0 ABS 0 bank15 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hbank16 0 0 ABS 0 bank16 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hbank17 0 0 ABS 0 bank17 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hbank18 0 0 ABS 0 bank18 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hbank19 0 0 ABS 0 bank19 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hbank20 0 0 ABS 0 bank20 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hbigram 0 0 ABS 0 bigram dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hbigsfr 0 0 ABS 0 bigsfr dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__smallconst 1600 0 SMALLCONST 0 smallconst /tmp/xcXONIljB/driver_tmp_14.o
+__end_of_UART1_ParityErrorCallbackRegister 24FC 0 CODE 0 text27 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+covert_channel_logic@first 556 0 COMRAM 1 dataCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hcomram 0 0 ABS 0 comram dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hconfig 30000A 0 CONFIG 4 config dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lbank5 0 0 ABS 0 bank5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lbank6 0 0 ABS 0 bank6 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lbank7 0 0 ABS 0 bank7 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lbank8 0 0 ABS 0 bank8 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lbank9 0 0 ABS 0 bank9 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lcinit 0 0 ABS 0 cinit dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lconst 0 0 CONST 0 const dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lidata 0 0 CODE 0 idata dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lidloc 0 0 IDLOC 5 idloc dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+INT1_SetInterruptHandler@InterruptHandler 509 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lparam 0 0 COMRAM 1 rparam dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lrdata 0 0 COMRAM 1 rdata dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_UART1_FramingErrorCallbackRegister 2534 0 CODE 0 text29 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lstack 0 0 STACK 2 stack dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext0 0 0 ABS 0 text0 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext1 0 0 ABS 0 text1 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext2 0 0 ABS 0 text2 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext3 0 0 ABS 0 text3 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext4 0 0 ABS 0 text4 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext5 0 0 ABS 0 text5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext6 0 0 ABS 0 text6 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext7 0 0 ABS 0 text7 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext8 0 0 ABS 0 text8 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext9 0 0 ABS 0 text9 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_DMA1_Initialize 20D8 0 CODE 0 text38 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_INT0_SetInterruptHandler 25E8 0 CODE 0 text37 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_DMA1_DMASCNTI_ISR 22DC 0 CODE 0 text54 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+UART1_OverrunErrorCallbackRegister@callbackHandler 509 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_INTERRUPT_Initialize 2004 0 CODE 0 text34 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Habs1 0 0 ABS 0 abs1 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hdata 0 0 ABS 0 data dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hheap 0 0 HEAP 7 heap dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hinit BE 0 CODE 0 init dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hrbit 0 0 COMRAM 1 rbit dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hrbss 0 0 COMRAM 1 rbss dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htemp 0 0 COMRAM 1 temp dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext 0 0 ABS 0 text dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Labs1 0 0 ABS 0 abs1 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ldata 0 0 ABS 0 data dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lheap 0 0 HEAP 7 heap dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Linit BA 0 CODE 0 init dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lrbit 0 0 COMRAM 1 rbit dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lrbss 0 0 COMRAM 1 rbss dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltemp 0 0 COMRAM 1 temp dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext 0 0 ABS 0 text dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__pnvBANK5 5A2 0 BANK5 1 nvBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__LcstackBANK5 0 0 ABS 0 cstackBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_Timer0_Stop 2612 0 CODE 0 text57 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_IOC_ISR 2612 0 CODE 0 text43 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_UART1_ErrorGet 0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hirdata 0 0 CODE 0 irdata dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_Dst 596 0 BANK5 1 bssBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_GIE 26B7 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_Src 598 0 BANK5 1 bssBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__S0 2629 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__S1 5A8 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__S4 0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__S5 0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_abs 225C 0 CODE 0 text17 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_dst 572 0 BANK5 1 bssBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_end 56E 0 BANK5 1 bssBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_pad 1EA4 0 CODE 0 text11 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_src 574 0 BANK5 1 bssBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hivt0x8 BA 0 CODE 0 ivt0x8 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_CLOCK_Initialize 2534 0 CODE 0 text41 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_INT2_SetInterruptHandler 25DE 0 CODE 0 text35 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+IVTBASEH 45E 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+IVTBASEL 45D 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+IVTBASEU 45F 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_uart1RxLastError 56C 0 BANK5 1 bssBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_UART1_Initialize 1EA4 0 CODE 0 text26 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_UART1_DefaultFramingErrorCallback 0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_PRLOCKbits B4 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__pivt0x8 8 0 CODE 0 ivt0x8 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_UART2_Initialize 22DC 0 CODE 0 text25 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__HidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_DMA1_SetSCNTIInterruptHandler 25FC 0 CODE 0 text39 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_SYSTEM_Initialize 2480 0 CODE 0 text24 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_dtoa$1895 52A 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_abs 229C 0 CODE 0 text17 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_pad 1F1E 0 CODE 0 text11 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_UART1_Deinitialize 0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_UART1_DefaultOverrunErrorCallback 0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__HnvBANK5 0 0 ABS 0 nvBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hramtop 1600 0 RAM 0 ramtop dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+Timer0_Write@timerVal 509 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hrparam 0 0 COMRAM 1 rparam dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__pdataBANK5 5A6 0 BANK5 1 dataBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__activetblptr 3 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_DMA1_DefaultInterruptHandler 2626 0 CODE 0 text55 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hstruct 0 0 COMRAM 1 struct dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__LbssBANK5 0 0 ABS 0 bssBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext10 0 0 ABS 0 text10 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext11 0 0 ABS 0 text11 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext12 0 0 ABS 0 text12 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext13 0 0 ABS 0 text13 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext14 0 0 ABS 0 text14 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext15 0 0 ABS 0 text15 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext16 0 0 ABS 0 text16 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext17 0 0 ABS 0 text17 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext18 0 0 ABS 0 text18 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext19 0 0 ABS 0 text19 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext20 0 0 ABS 0 text20 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext21 0 0 ABS 0 text21 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext22 0 0 ABS 0 text22 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext23 0 0 ABS 0 text23 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext24 0 0 ABS 0 text24 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext25 0 0 ABS 0 text25 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext26 0 0 ABS 0 text26 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext27 0 0 ABS 0 text27 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext28 0 0 ABS 0 text28 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext29 0 0 ABS 0 text29 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext30 0 0 ABS 0 text30 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext31 0 0 ABS 0 text31 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext32 0 0 ABS 0 text32 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext33 0 0 ABS 0 text33 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext34 0 0 ABS 0 text34 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext35 0 0 ABS 0 text35 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext36 0 0 ABS 0 text36 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext37 0 0 ABS 0 text37 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext38 0 0 ABS 0 text38 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext39 0 0 ABS 0 text39 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext40 0 0 ABS 0 text40 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext41 0 0 ABS 0 text41 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext42 0 0 ABS 0 text42 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext43 0 0 ABS 0 text43 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext44 0 0 ABS 0 text44 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext45 0 0 ABS 0 text45 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext46 0 0 ABS 0 text46 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext47 0 0 ABS 0 text47 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext48 0 0 ABS 0 text48 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext49 0 0 ABS 0 text49 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext50 0 0 ABS 0 text50 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext51 0 0 ABS 0 text51 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext52 0 0 ABS 0 text52 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext53 0 0 ABS 0 text53 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext54 0 0 ABS 0 text54 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext55 0 0 ABS 0 text55 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext56 0 0 ABS 0 text56 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext57 0 0 ABS 0 text57 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Htext58 0 0 ABS 0 text58 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+vfpfcnvrt@fmt 535 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+___awmod@counter 50D 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_PIE2bits 4AA 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_PIR10bits 4BD 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+pad@buf 51D 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext10 182A 0 CODE 0 text10 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext11 1EA4 0 CODE 0 text11 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext12 21D8 0 CODE 0 text12 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext13 1AAE 0 CODE 0 text13 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext14 24A6 0 CODE 0 text14 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext15 25FC 0 CODE 0 text15 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext16 242E 0 CODE 0 text16 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext17 225C 0 CODE 0 text17 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext18 1C3C 0 CODE 0 text18 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext19 1B78 0 CODE 0 text19 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext20 25B4 0 CODE 0 text20 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext21 2604 0 CODE 0 text21 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext22 25C0 0 CODE 0 text22 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext23 2314 0 CODE 0 text23 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext24 2480 0 CODE 0 text24 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext25 22DC 0 CODE 0 text25 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext26 1E26 0 CODE 0 text26 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext27 24E0 0 CODE 0 text27 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext28 24FC 0 CODE 0 text28 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext29 2518 0 CODE 0 text29 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext30 2348 0 CODE 0 text30 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext31 25CA 0 CODE 0 text31 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext32 2598 0 CODE 0 text32 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext33 1D96 0 CODE 0 text33 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext34 2004 0 CODE 0 text34 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext35 25D4 0 CODE 0 text35 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext36 25DE 0 CODE 0 text36 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext37 25E8 0 CODE 0 text37 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext38 20D8 0 CODE 0 text38 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext39 25F2 0 CODE 0 text39 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext40 2402 0 CODE 0 text40 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext41 2534 0 CODE 0 text41 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext42 261C 0 CODE 0 text42 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext43 260C 0 CODE 0 text43 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext44 261E 0 CODE 0 text44 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext45 2550 0 CODE 0 text45 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext46 2378 0 CODE 0 text46 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext47 2620 0 CODE 0 text47 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext48 2568 0 CODE 0 text48 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext49 23A6 0 CODE 0 text49 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext50 2622 0 CODE 0 text50 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext51 2580 0 CODE 0 text51 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext52 23D4 0 CODE 0 text52 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext53 2624 0 CODE 0 text53 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext54 229C 0 CODE 0 text54 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext55 2626 0 CODE 0 text55 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext56 25A6 0 CODE 0 text56 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext57 2612 0 CODE 0 text57 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext58 0 0 CODE 0 text58 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_Timer0_DefaultOverflowCallback 0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_Timer0_Initialize 2378 0 CODE 0 text30 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_PIN_MANAGER_Initialize 1E26 0 CODE 0 text33 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+___awdiv 1B78 0 CODE 0 text19 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+___awmod 1C3C 0 CODE 0 text18 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+___lwdiv 1F1E 0 CODE 0 text9 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+___lwmod 2074 0 CODE 0 text8 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_INT0_CallBack 23A6 0 CODE 0 text46 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lbank10 0 0 ABS 0 bank10 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lbank11 0 0 ABS 0 bank11 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lbank12 0 0 ABS 0 bank12 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lbank13 0 0 ABS 0 bank13 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lbank14 0 0 ABS 0 bank14 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lbank15 0 0 ABS 0 bank15 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lbank16 0 0 ABS 0 bank16 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lbank17 0 0 ABS 0 bank17 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lbank18 0 0 ABS 0 bank18 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lbank19 0 0 ABS 0 bank19 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lbank20 0 0 ABS 0 bank20 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lbigram 0 0 ABS 0 bigram dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lbigsfr 0 0 ABS 0 bigsfr dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_INT2_InterruptHandler 562 0 BANK5 1 bssBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lcomram 0 0 ABS 0 comram dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lconfig 0 0 CONFIG 4 config dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_printf 2458 0 CODE 0 text4 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_INT1_CallBack 23D4 0 CODE 0 text49 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_DMA1_DMASCNTI_ISR 229C 0 CODE 0 text54 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+ivt0x8_undefint B8 0 CODE 0 ivt0x8 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_IVTLOCKbits 459 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_UART1_IsTxReady 2458 0 CODE 0 text16 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_INT2_CallBack 2402 0 CODE 0 text52 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_sample 551 0 COMRAM 1 bssCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_covert_channel_logic 1CEC 0 CODE 0 text2 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+___lwdiv@divisor 50B 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_Default_ISR 261C 0 CODE 0 text42 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lfardata 0 0 FARRAM 0 fardata dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+isa$std 1 0 ABS 0 - /tmp/xcXONIljB/driver_tmp_14.o
+__end_of_CLOCK_Initialize 2550 0 CODE 0 text41 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_trojan 1F92 0 CODE 0 text3 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_UART1_ParityErrorHandler 568 0 BANK5 1 bssBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_UART1_Write 2604 0 CODE 0 text15 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+stackhi 0 0 ABS 0 - /tmp/xcXONIljB/driver_tmp_14.o
+stacklo 0 0 ABS 0 - /tmp/xcXONIljB/driver_tmp_14.o
+_OSCCON1 AD 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_OSCCON3 AF 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_OSCTUNE B0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lirdata 0 0 CODE 0 irdata dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_INT2_DefaultInterruptHandler 2626 0 CODE 0 text53 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Livt0x8 8 0 CODE 0 ivt0x8 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_INT1_InterruptHandler 564 0 BANK5 1 bssBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_UART2_Initialize 2314 0 CODE 0 text25 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_UART1_DefaultParityErrorCallback 0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_covert_channel 221C 0 CODE 0 text1 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_INT1_DefaultInterruptHandler 2622 0 CODE 0 text50 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lspace_0 0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lspace_1 0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lspace_2 0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lspace_4 0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_DMAnAIRQ FE 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_DMAnCON0 FC 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_DMAnCON1 FD 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_DMAnDPTR EC 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_DMAnSIRQ FF 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_DMAnSPTR F4 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__pbssCOMRAM 549 0 COMRAM 1 bssCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__HcstackBANK5 0 0 ABS 0 cstackBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_PIR1bits 4B4 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_PIR2bits 4B5 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_PIR3bits 4B6 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_PIR6bits 4B9 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+vfpfcnvrt@convarg 53B 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+printf@ap 5A0 0 BANK5 1 cstackBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+UART1_ParityErrorCallbackRegister@callbackHandler 509 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+end_of_initialization 2182 0 CODE 0 cinit dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_UART1_Read 0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+fputc@c 50B 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+fputs@c 518 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+fputs@i 519 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+fputs@s 514 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+___awdiv@quotient 50F 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+?___awdiv 509 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+?___awmod 509 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+___lwdiv@dividend 509 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+?___lwdiv 509 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+?___lwmod 509 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+vfprintf@fmt 543 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hreset_vec 4 0 CODE 0 reset_vec dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_SystemArbiter_Initialize 25A6 0 CODE 0 text32 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__HbssBANK5 0 0 ABS 0 bssBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_UART1_FramingErrorHandler 54D 0 COMRAM 1 bssCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_UART1_OverrunErrorHandler 56A 0 BANK5 1 bssBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+___awmod@dividend 509 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_INT0_InterruptHandler 566 0 BANK5 1 bssBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_UART1_IsTxReady 242E 0 CODE 0 text16 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_INT1_SetInterruptHandler 25DE 0 CODE 0 text36 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lramtop 1600 0 RAM 0 ramtop dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lrparam 0 0 COMRAM 1 rparam dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__pcinit 2132 0 CODE 0 cinit dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+vfpfcnvrt@ap 537 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+vfpfcnvrt@cp 53F 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+vfpfcnvrt@fp 533 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_UART1_IsTxReady$722 509 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext0 24C4 0 CODE 0 text0 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext1 221C 0 CODE 0 text1 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext2 1CEC 0 CODE 0 text2 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext3 1F92 0 CODE 0 text3 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext4 2458 0 CODE 0 text4 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext5 2188 0 CODE 0 text5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext6 1652 0 CODE 0 text6 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext7 19BE 0 CODE 0 text7 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext8 2074 0 CODE 0 text8 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ptext9 1F1E 0 CODE 0 text9 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_INT0_ISR 2550 0 CODE 0 text45 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_INT1_ISR 2568 0 CODE 0 text48 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_INT2_ISR 2580 0 CODE 0 text51 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lstruct 0 0 COMRAM 1 struct dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+vfprintf@ap 545 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+vfprintf@fp 541 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_Timer0_OverflowCallbackRegister 25CA 0 CODE 0 text31 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+vfprintf@cfmt 547 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext10 0 0 ABS 0 text10 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext11 0 0 ABS 0 text11 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext12 0 0 ABS 0 text12 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext13 0 0 ABS 0 text13 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext14 0 0 ABS 0 text14 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext15 0 0 ABS 0 text15 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext16 0 0 ABS 0 text16 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext17 0 0 ABS 0 text17 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext18 0 0 ABS 0 text18 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext19 0 0 ABS 0 text19 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext20 0 0 ABS 0 text20 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext21 0 0 ABS 0 text21 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext22 0 0 ABS 0 text22 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext23 0 0 ABS 0 text23 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext24 0 0 ABS 0 text24 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext25 0 0 ABS 0 text25 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext26 0 0 ABS 0 text26 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext27 0 0 ABS 0 text27 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext28 0 0 ABS 0 text28 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext29 0 0 ABS 0 text29 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext30 0 0 ABS 0 text30 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext31 0 0 ABS 0 text31 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext32 0 0 ABS 0 text32 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext33 0 0 ABS 0 text33 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext34 0 0 ABS 0 text34 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext35 0 0 ABS 0 text35 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext36 0 0 ABS 0 text36 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext37 0 0 ABS 0 text37 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext38 0 0 ABS 0 text38 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext39 0 0 ABS 0 text39 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext40 0 0 ABS 0 text40 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext41 0 0 ABS 0 text41 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext42 0 0 ABS 0 text42 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext43 0 0 ABS 0 text43 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext44 0 0 ABS 0 text44 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext45 0 0 ABS 0 text45 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext46 0 0 ABS 0 text46 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext47 0 0 ABS 0 text47 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext48 0 0 ABS 0 text48 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext49 0 0 ABS 0 text49 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext50 0 0 ABS 0 text50 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext51 0 0 ABS 0 text51 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext52 0 0 ABS 0 text52 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext53 0 0 ABS 0 text53 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext54 0 0 ABS 0 text54 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext55 0 0 ABS 0 text55 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext56 0 0 ABS 0 text56 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext57 0 0 ABS 0 text57 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Ltext58 0 0 ABS 0 text58 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__ramtop 1600 0 RAM 0 ramtop /tmp/xcXONIljB/driver_tmp_14.o
+_vfprintf 2188 0 CODE 0 text5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_Timer0_Initialize 2348 0 CODE 0 text30 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lpowerup 0 0 CODE 0 powerup dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__H__absolute__ 0 0 ABS 0 __absolute__ dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_INT0_ISR 2568 0 CODE 0 text45 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_INT1_ISR 2580 0 CODE 0 text48 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_INT2_ISR 2598 0 CODE 0 text51 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__psmallconst 1600 0 SMALLCONST 0 smallconst dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_covert_channel 225C 0 CODE 0 text1 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+INT0_SetInterruptHandler@InterruptHandler 509 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_vfprintf 21D8 0 CODE 0 text5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_SLRCONA 403 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_SLRCONB 40B 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_SLRCONC 413 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+___heap_hi 0 0 ABS 0 - /tmp/xcXONIljB/driver_tmp_14.o
+___heap_lo 0 0 ABS 0 - /tmp/xcXONIljB/driver_tmp_14.o
+___param_bank 0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of__initialization 2182 0 CODE 0 cinit dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+___awmod@divisor 50B 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_IOC_ISR 260C 0 CODE 0 text43 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Libigdata 0 0 CODE 0 ibigdata dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_Timer0_Start 2604 0 CODE 0 text21 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_Timer0_Tasks 0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_Timer0_Write 25B4 0 CODE 0 text20 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__pidataBANK5 2618 0 CODE 0 idataBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U1UIRbits 2B1 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_timerTMR0ReloadVal16bit 54B 0 COMRAM 1 bssCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+trojan@i 50B 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_INT0_SetInterruptHandler 25F2 0 CODE 0 text37 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_Timer0_Stop 2618 0 CODE 0 text57 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__pcstackCOMRAM 501 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_T0CON0bits 31A 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_DMA1_DefaultInterruptHandler 2628 0 CODE 0 text55 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+putch@txData 50A 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_dtoa 19BE 0 CODE 0 text10 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_main 24E0 0 CODE 0 text0 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_utoa 1AAE 0 CODE 0 text7 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_UART1 1631 0 SMALLCONST 0 smallconst dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+printf@fmt 59A 0 BANK5 1 cstackBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_IVTLOCK 459 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_IOCAF 407 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_IOCAN 406 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_IOCAP 405 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_IOCBF 40F 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_IOCBN 40E 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_IOCBP 40D 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_IOCCF 417 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_IOCCN 416 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_IOCCP 415 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_ISRPR BF 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_fputc 1B78 0 CODE 0 text13 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_fputs 221C 0 CODE 0 text12 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_OSCEN B3 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_PRODH 4F4 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_PRODL 4F3 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_TMR0H 319 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_TMR0L 318 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_TRISA 4C6 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_TRISB 4C7 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_TRISC 4C8 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U1P1H 2A6 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U1P1L 2A5 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U1P2H 2A8 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U1P2L 2A7 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U1P3H 2AA 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U1P3L 2A9 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U1RXB 2A1 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U1TXB 2A3 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U1UIR 2B1 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U2P1L 2B8 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U2P2L 2BA 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U2P3L 2BC 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U2TXB 2B6 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U2UIR 2C4 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_UART1 1601 0 SMALLCONST 0 smallconst dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_putch 24C4 0 CODE 0 text14 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__HRAM 0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hbss 0 0 RAM 1 bss dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hram 0 0 ABS 0 ram dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hsfr 0 0 ABS 0 sfr dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__LRAM 1 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lbss 0 0 RAM 1 bss dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lram 0 0 ABS 0 ram dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lsfr 0 0 ABS 0 sfr dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_ptr_cnt 5A6 0 BANK5 1 dataBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_flags 555 0 COMRAM 1 bssCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_fputc 1AAE 0 CODE 0 text13 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_fputs 21D8 0 CODE 0 text12 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_putch 24A6 0 CODE 0 text14 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_start 570 0 BANK5 1 bssBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_width 560 0 BANK5 1 bssBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__HdataBANK5 0 0 ABS 0 dataBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__initialization 2132 0 CODE 0 cinit dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__pbssBANK5 560 0 BANK5 1 bssBANK5 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__pdataCOMRAM 556 0 COMRAM 1 dataCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__end_of_DMA_ISR 25B4 0 CODE 0 text56 dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_input_symbol 553 0 COMRAM 1 bssCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hfardata 0 0 FARRAM 0 fardata dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hsmallconst 1652 0 SMALLCONST 0 smallconst dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+dtoa@d 528 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+dtoa@i 531 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+dtoa@p 52C 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+dtoa@s 530 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+dtoa@w 52E 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Lifardata 0 0 CODE 0 ifardata dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+INTERRUPT_Initialize@state 50B 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_U1ERRIRbits 2B2 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+_UART1_TransmitDisable 0 0 ABS 0 - dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+UART1_Write@txData 509 0 COMRAM 1 cstackCOMRAM dist/default/production/PIC18_DMA_Covert_Channel.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+ivt0x8 0 8 8 B6 1
+text6 0 1652 1652 FB8 1
+text42 0 261C 261C D 1
+text43 0 260C 260C E 1
+cstackCOMRAM 1 501 501 56 1
+reset_vec 0 0 0 4 1
+bssBANK5 1 560 560 48 1
+smallconst 0 1600 1600 52 1
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES

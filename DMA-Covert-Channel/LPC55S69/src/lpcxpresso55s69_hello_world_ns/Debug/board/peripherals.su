@@ -1,0 +1,5 @@
+/home/cris/Documents/0_Projects/uarchs_paper/LPC55S69_DMA_Covert_Channel/src/lpcxpresso55s69_hello_world_ns/CMSIS/core_cm33.h:2378:22:__NVIC_EnableIRQ	16	static
+/home/cris/Documents/0_Projects/uarchs_paper/LPC55S69_DMA_Covert_Channel/src/lpcxpresso55s69_hello_world_ns/drivers/fsl_common_arm.h:499:24:EnableIRQ	24	static
+../board/peripherals.c:82:13:DMA0_init	8	static
+../board/peripherals.c:115:6:BOARD_InitPeripherals	8	static
+../board/peripherals.c:127:6:BOARD_InitBootPeripherals	8	static

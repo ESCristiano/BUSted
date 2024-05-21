@@ -1,0 +1,3 @@
+../drivers/fsl_reset.c:42:6:RESET_SetPeripheralReset	32	static
+../drivers/fsl_reset.c:67:6:RESET_ClearPeripheralReset	32	static
+../drivers/fsl_reset.c:93:6:RESET_PeripheralReset	16	static

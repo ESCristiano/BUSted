@@ -1,0 +1,5 @@
+"./Results/STM32F767_No_Contention_samples.txt" is recognised as an observation file.
+Estimated capacity: 0.0 (out of possible  8.000 bits)
+  Between 0.0 and 0.0011 with 95% confidence
+  With 95% confidence, if leakage (w/o correction) < 0.0119, we may consider no information is leaked.
+No leak detected.

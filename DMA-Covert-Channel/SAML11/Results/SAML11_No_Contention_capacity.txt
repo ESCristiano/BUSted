@@ -1,0 +1,5 @@
+"./Results/SAML11_No_Contention_samples.txt" is recognised as an observation file.
+Estimated capacity: 5.1174 (out of possible  8.000 bits)
+  Between 5.1173 and 5.1176 with 95% confidence
+  With 95% confidence, if leakage (w/o correction) < 0.4556, we may consider no information is leaked.
+There is a leak.

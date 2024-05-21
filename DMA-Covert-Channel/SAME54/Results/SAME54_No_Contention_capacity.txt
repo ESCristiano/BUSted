@@ -1,0 +1,5 @@
+"./SAME54_DMA_Covert_Channel/Results/SAME54_No_Contention_samples.txt" is recognised as an observation file.
+Estimated capacity: 1.5652 (out of possible  8.000 bits)
+  Between 1.5646 and 1.5658 with 95% confidence
+  With 95% confidence, if leakage (w/o correction) < 0.0337, we may consider no information is leaked.
+There is a leak.

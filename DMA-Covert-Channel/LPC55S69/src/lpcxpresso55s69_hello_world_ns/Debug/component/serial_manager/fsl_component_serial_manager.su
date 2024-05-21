@@ -1,0 +1,17 @@
+/home/cris/Documents/0_Projects/uarchs_paper/LPC55S69_DMA_Covert_Channel/src/lpcxpresso55s69_hello_world_ns/drivers/fsl_common_arm.h:579:24:DisableGlobalIRQ	16	static
+/home/cris/Documents/0_Projects/uarchs_paper/LPC55S69_DMA_Covert_Channel/src/lpcxpresso55s69_hello_world_ns/drivers/fsl_common_arm.h:606:20:EnableGlobalIRQ	24	static
+../component/serial_manager/fsl_component_serial_manager.c:398:32:SerialManager_StartWriting	32	static
+../component/serial_manager/fsl_component_serial_manager.c:453:32:SerialManager_StartReading	32	static
+../component/serial_manager/fsl_component_serial_manager.c:1182:32:SerialManager_Write	32	static
+../component/serial_manager/fsl_component_serial_manager.c:1199:32:SerialManager_Read	32	static
+../component/serial_manager/fsl_component_serial_manager.c:1217:25:SerialManager_Init	24	static
+../component/serial_manager/fsl_component_serial_manager.c:1430:25:SerialManager_Deinit	32	static
+../component/serial_manager/fsl_component_serial_manager.c:1508:25:SerialManager_OpenWriteHandle	32	static
+../component/serial_manager/fsl_component_serial_manager.c:1545:25:SerialManager_CloseWriteHandle	32	static
+../component/serial_manager/fsl_component_serial_manager.c:1576:25:SerialManager_OpenReadHandle	32	static
+../component/serial_manager/fsl_component_serial_manager.c:1616:25:SerialManager_CloseReadHandle	32	static
+../component/serial_manager/fsl_component_serial_manager.c:1645:25:SerialManager_WriteBlocking	24	static
+../component/serial_manager/fsl_component_serial_manager.c:1654:25:SerialManager_ReadBlocking	24	static
+../component/serial_manager/fsl_component_serial_manager.c:1897:25:SerialManager_EnterLowpower	24	static
+../component/serial_manager/fsl_component_serial_manager.c:1944:25:SerialManager_ExitLowpower	24	static
+../component/serial_manager/fsl_component_serial_manager.c:1998:6:SerialManager_SetLowpowerCriticalCb	16	static
